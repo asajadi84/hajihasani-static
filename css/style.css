@@ -1,0 +1,361 @@
+@font-face {
+    font-family: Sahel;
+    font-style: normal;
+    src: url('../fonts/Sahel.eot');
+    src: url('../fonts/Sahel.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/Sahel.woff2') format('woff2'), /* FF39+, Chrome36+, Opera24+*/
+    url('../fonts/Sahel.woff') format('woff')
+}
+
+@font-face {
+    font-family: SahelBold;
+    font-style: normal;
+    src: url('../fonts/Sahel-Bold.eot');
+    src: url('../fonts/Sahel-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/Sahel-Bold.woff2') format('woff2'), /* FF39+, Chrome36+, Opera24+*/
+    url('../fonts/Sahel-Bold.woff') format('woff')
+}
+
+@font-face {
+    font-family: SahelFD;
+    font-style: normal;
+    src: url('../fonts/Sahel-FD.eot');
+    src: url('../fonts/Sahel-FD.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/Sahel-FD.woff2') format('woff2'), /* FF39+, Chrome36+, Opera24+*/
+    url('../fonts/Sahel-FD.woff') format('woff')
+}
+
+@font-face {
+    font-family: SahelFDBold;
+    font-style: normal;
+    src: url('../fonts/Sahel-Bold-FD.eot');
+    src: url('../fonts/Sahel-Bold-FD.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/Sahel-Bold-FD.woff2') format('woff2'), /* FF39+, Chrome36+, Opera24+*/
+    url('../fonts/Sahel-Bold-FD.woff') format('woff')
+}
+
+::selection {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::placeholder {
+    color: #cccccc !important;
+}
+
+body {
+    background-color: #e6dfdf;
+    font-family: SahelFD !important;
+}
+
+nav {
+    margin-bottom: 16px;
+    background-image: linear-gradient(to bottom, #1d4d4f, #1d4d4f);
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+    width: 32px;
+}
+
+.nav-title {
+    font-family: SahelFDBold;
+    color: #ffffff;
+    margin: 0 8px 0 0;
+    font-size: 18px;
+}
+
+.nav-text {
+    color: #ffffff;
+    margin-left: 8px;
+}
+
+.body-card {
+    border: 0;
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 16px 0;
+    margin-top: 64px;
+}
+
+.footer-note {
+    color: #000000;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+h4 {
+    font-family: SahelFDBold;
+    color: #343a40;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-family: SahelFDBold;
+    color: #343a40;
+    margin-bottom: 8px;
+}
+
+.info-box {
+    background-color: #fff6be;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.narrow-column {
+    margin: 32px 20%;
+}
+
+.wide-column {
+    margin: 16px 8px;
+}
+
+.form-url {
+    direction: ltr;
+    font-size: 0.75em;
+}
+
+.force-lower {
+    text-transform: lowercase;
+}
+
+.english-digits {
+    font-family: Sahel !important;
+}
+
+.make-bold {
+    font-family: SahelFDBold !important;
+}
+
+.simple-link {
+    color: #17a2b8;
+}
+
+.simple-link:focus,
+.simple-link:hover {
+    color: #138496;
+}
+
+.make-gone {
+    display: none !important;
+}
+
+.index-form-col {
+    margin-top: 96px;
+}
+
+.profile-table {
+    width: 100%;
+}
+
+.profile-table td {
+    padding: 8px;
+    vertical-align: top;
+}
+
+.profile-table-head {
+    background-color: #ffffff;
+    color: #17a2b8;
+    border: 1px solid #17a2b8 !important;
+}
+
+td {
+    border: 0 !important;
+}
+
+.profile-pic {
+    width: 100%;
+    clip-path: circle();
+}
+
+.profile-name {
+    color: #1d4d4f;
+    font-size: 2rem;
+    font-family: SahelFDBold;
+    margin-bottom: 0;
+}
+
+.profile-des {
+    color: #367374;
+    font-size: 1.5rem;
+}
+
+.profile-birthday {
+    color: #616161;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.profile-contact-platform {
+    color: #616161;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.profile-contact-id {
+    color: #616161;
+    font-size: 1rem;
+    font-family: SahelFDBold;
+    margin-bottom: 16px;
+}
+
+.profile-section-icon {
+    width: 48px;
+}
+
+.profile-section-title {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-family: SahelFDBold;
+    color: #ffffff;
+}
+
+.profile-section-hr {
+    border-top: 2px dashed #000000;
+    margin: 0 48px 0 0;
+}
+
+.tooltip {
+    font-family: Sahel;
+}
+
+.profile-pic-container {
+    margin: 0;
+}
+
+.profile-pic-btn {
+    position: absolute;
+    right: -24px;
+    top: 16px;
+}
+
+.profile-col {
+    position: sticky;
+    top: 80px;
+    border-radius: 4px;
+    background: #ffffff;
+}
+
+.section-title {
+    background-color: #367375;
+    padding: 4px;
+    margin-right: 0;
+}
+
+.level-badge {
+    background-color: #17a2b8;
+    border-radius: 24px;
+    color: #ffffff;
+    display: inline;
+    padding: 0 8px;
+}
+
+.level-badge-vip {
+    background-color: #b8174a;
+    border-radius: 24px;
+    color: #ffffff;
+    display: inline;
+    padding: 0 8px;
+}
+
+.visit-profile-link {
+    display: inline;
+    color: #777777;
+}
+
+.visit-profile-link:hover {
+    color: #367375;
+}
+
+.active-item, .active-item:hover {
+    background-color: #2f4e58;
+    color: white;
+}
+
+.mcard-container {
+    width: 600px;
+    margin: 0 16px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+
+.mcard-pic {
+    width: 100%;
+    margin-right: 24px;
+    margin-top: 36px;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.mcard-logo {
+    padding-bottom: 16px;
+}
+
+.mcard-fullname {
+    margin-top: 36px;
+    margin-bottom: 4px;
+    text-align: left;
+    font-size: 2.5rem;
+    font-family: SahelFDBold;
+}
+
+.mcard-user-level {
+    float: left;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    display: inline;
+    padding: 2px 16px;
+    border-radius: 24px;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+}
+
+.mcard-user-title-container {
+    clear: both;
+    text-align: left;
+    margin-bottom: 92px;
+}
+
+.mcard-user-title {
+    font-family: SahelFDBold;
+}
+
+.mcard-organization {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.mcard-profile-url {
+    text-align: left;
+    font-size: 0.6rem;
+    font-family: Sahel !important;
+}
+
+.menu-title {
+    padding-right: 20px;
+    margin-bottom: 0;
+    background-color: #17a2b8;
+    color: #ffffff;
+    font-family: SahelFDBold;
+}
+
+.table-responsive {
+    overflow: visible;
+}
+
+@media (max-width: 576px) {
+    .narrow-column {
+        margin: 32px 16px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .index-form-col {
+        margin-top: 0;
+    }
+}
